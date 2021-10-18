@@ -7,7 +7,7 @@ $body = $_POST['body'];
 
 $post = array(
     "subject" => $subject,
-    "body"=>$body,
+    "body"=> $body,
     "author" => $_SESSION['login'][2],
     "date" => date("F j, Y , g:i a")
 );

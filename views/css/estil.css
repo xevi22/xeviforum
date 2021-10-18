@@ -4,7 +4,8 @@
 }
 
 body{
-    background-color:antiquewhite
+    background-image: url("../../img/blue.png");
+    background-size: inherit;
 }
 .top{
     width: 100%;
@@ -24,6 +25,7 @@ body{
 
 .topleft .titol{
     font-size: 1.5em;
+    color: white;
 }
 .topright a{
     padding: 4px 9px 4px 9px;
@@ -39,11 +41,14 @@ body{
     color: black;
 }
 a.user{
-    color: black;
+    text-transform: uppercase;
+    color: white;
     background: none;
     text-decoration: blue;
 }
 .contingut{
+    background-image: url("../../img/tabla.png");
+    background-size: cover;
     width: 30%;
     margin-top: 75px;
     margin-left: 30%;

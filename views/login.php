@@ -1,7 +1,6 @@
 <?php
 session_start();
-unset($_SESSION["users"]);
-unset($_SESSION["posts"]);
+
 
 if (!isset($_SESSION["users"]) || !isset($_SESSION["posts"] )){
     echo "Inicialitzant array";
@@ -25,7 +24,6 @@ if (!isset($_SESSION["users"]) || !isset($_SESSION["posts"] )){
           "date"=> date("F j, Y , g:i a")
       )
     );
-
 }
 ?>
 <!doctype html>
@@ -36,9 +34,10 @@ if (!isset($_SESSION["users"]) || !isset($_SESSION["posts"] )){
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>LogIn</title>
+    <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-    <form action="../controllers/checkLogin.php" method="post">
+    <form class="di" action="../controllers/checkLogin.php" method="post">
         <label for="username">Username:</label><br>
         <input type="text" id="username" name="username"><br>
         <label for="password">Pass:</label><br>

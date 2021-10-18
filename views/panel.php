@@ -19,7 +19,6 @@ session_start();
         <span class="titol">Formulari Cirvianum</span>
     </div>
     <div class="topright">
-        <a href="">Llistat</a>
         <?php
         if ($_SESSION["login"][1]){
                 echo "<a href='nouPostForm.php'>Nou Post</a>";

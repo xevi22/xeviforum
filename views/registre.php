@@ -13,14 +13,14 @@ session_start();
 </head>
 <body>
 
-<form class="login-form">
+<form class="login-form" action="../controllers/registreUsuari.php" method="post">
     <p class="login-text">
     <span class="imgPerfil">
-      <img src="/img/perfil.png">
+      <img src="../img/perfil.png">
     </span>
     </p>
-    <input type="text" class="login-username" autofocus="true" required="true" placeholder="Username" />
-    <input type="password" class="login-password" required="true" placeholder="Password" />
+    <input type="text" id="newUser" name="newUser" class="login-username" autofocus="true" required="true" placeholder="Username" />
+    <input type="password" id="newPass" name="newPass" class="login-password" required="true" placeholder="Password" />
     <input type="submit" name="Login" value="Submit" class="login-submit" />
 </form>
 </body>

@@ -2,7 +2,7 @@ body, html {
     height: 100%;
 }
 body {
-    background-image: url("/img/img2.png");
+    background-image:url("../../img/img2.png");
     background-size: cover;
     font-family: 'Open Sans';
     font-weight: 100;
@@ -36,7 +36,6 @@ input {
 }
 
 .login-form {
-
     min-height: 10rem;
     margin: auto;
     max-width: 50%;

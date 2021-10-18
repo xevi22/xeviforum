@@ -1,0 +1,17 @@
+body {
+    background-image:url("../../img/img2.png");
+    background-size: cover;
+    font-family: 'Open Sans';
+    font-weight: 100;
+    display: flex;
+    overflow: hidden;
+}
+h1{
+    color: white;
+    margin-left: 25px;
+}
+.hola{
+   color: white;
+   margin-top: 15px;
+    margin-left: 25px;
+}
